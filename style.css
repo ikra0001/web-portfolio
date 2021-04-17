@@ -1,31 +1,61 @@
-/* --Custom CSS-- */
 
 
-/* start NAV */
-
-/* #bootstrap-font-override h1 {
-    font-size: 120px;
-} heading font size override*/
-
-.nav-link:hover{
-    color:  rgb(202, 133, 5);
+h1 {
+	color: #9850EB;
 }
-/* nav end */
 
-/* start MAIN */
 .container {
-    font-family: 'Fjalla One', sans-serif;
-    transition: 0.3s;
+	font-family: 'Fjalla One', sans-serif;
+	transition: 0.3s;
+	/*transition for less choppy movement between states in the banner */
 }
 
-.main-section .banner .main-title h3{
-    padding-top: 25%;
-    font-weight: bold;
+.main-section {
+	font-family: 'Fjalla One', sans-serif;
 }
 
-.banner-image{
-    transition: 0.3s;
-    padding-top: 25%;
+.main-section .banner .main-title {
+	padding-top: 25%;
+	padding-left: 150px;
+	font-weight: bold;
 }
 
+.banner-image {
+	transition: 0.3s;
+	padding-top: 25%;
+	margin-right: 0px;
+}
+
+
+/* client section start */
+
+.main-section .brand-section {
+	margin-top: 17rem;
+	margin-left: 17rem;
+}
+
+.main-section .brand-section .first-row .single-brand {
+	text-align: center;
+	padding: 2rem 0rem;
+	margin: 1rem 0;
+	width: 200px;
+	height: 100px;
+	transition: transform .4s ease;
+}
+
+.client-2 {
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+}
+
+.services {
+	margin-top: 10rem;
+}
+
+
+/* footer section start */
+
+.footer-area {
+	Margin-top: 17rem;
+}
 
