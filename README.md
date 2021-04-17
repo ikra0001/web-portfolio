@@ -9,7 +9,6 @@ Issues with specificity emerged which ended up conflicting with the Bootstrap cs
 
 
 The social Icons were linked through: AWESOME ICONS
-with this css:
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+with //font-awesome.min.css//
 
 
