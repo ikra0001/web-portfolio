@@ -1,0 +1,31 @@
+/* --Custom CSS-- */
+
+
+/* start NAV */
+
+/* #bootstrap-font-override h1 {
+    font-size: 120px;
+} heading font size override*/
+
+.nav-link:hover{
+    color:  rgb(202, 133, 5);
+}
+/* nav end */
+
+/* start MAIN */
+.container {
+    font-family: 'Fjalla One', sans-serif;
+    transition: 0.3s;
+}
+
+.main-section .banner .main-title h3{
+    padding-top: 25%;
+    font-weight: bold;
+}
+
+.banner-image{
+    transition: 0.3s;
+    padding-top: 25%;
+}
+
+
